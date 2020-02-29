@@ -6,6 +6,6 @@ services:
     image: postgres
     restart: always
     environment:
-      - POSTGRES_DB: db
-      - POSTGRES_USER: student
-      - POSTGRES_PASSWORD: aqahw7
+      POSTGRES_DB: db
+      POSTGRES_USER: student
+      POSTGRES_PASSWORD: aqahw7

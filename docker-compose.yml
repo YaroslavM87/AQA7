@@ -6,14 +6,9 @@
       db:
         image: postgres
         restart: always
+        ports:
+          - 8080:8080
         environment:
           - POSTGRES_DB: db
           - POSTGRES_USER: student
-          - POSTGRES_PASSWORD: aqahw7
-          
-
-      adminer:
-        image: adminer
-        restart: always
-        ports:
-          - 8080:8080
+          - POSTGRES_PASSWORD: aqahw7        

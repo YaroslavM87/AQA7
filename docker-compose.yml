@@ -1,11 +1,10 @@
-# Use postgres/example user/password credentials
-    version: '3.1'
+  version: '3.1'
 
-    services:
+  services:
 
-      datatbase:
-        image: "postgres"        
-        environment:
-          - POSTGRES_DB: "db"
-          - POSTGRES_USER: "student"
-          - POSTGRES_PASSWORD: "aqahw7"
+    datatbase:
+      image: "postgres"        
+      environment:
+        POSTGRES_DB: "db"
+        POSTGRES_USER: "student"
+        POSTGRES_PASSWORD: "aqahw7"

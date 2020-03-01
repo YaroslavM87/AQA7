@@ -3,10 +3,9 @@
 
     services:
 
-      db:
-        image: postgres
-        restart: always
+      datatbase:
+        image: "postgres"        
         environment:
-          - POSTGRES_DB: db
-          - POSTGRES_USER: student
-          - POSTGRES_PASSWORD: aqahw7
+          - POSTGRES_DB: "db"
+          - POSTGRES_USER: "student"
+          - POSTGRES_PASSWORD: "aqahw7"
